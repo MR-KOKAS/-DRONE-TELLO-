@@ -1,5 +1,8 @@
 # -DRONE-TELLO-
 🚁 PYTHON PROGRAM SIMULATES AUTONOMY 🚁
+
+
+```
 classDiagram
     class TelloController {
         +width: int
@@ -62,3 +65,4 @@ classDiagram
     TelloController --> KeyboardController : handles input with
     Tello -- FrameProcessor : provides frames to
     ObjectTracker -- FrameProcessor : analyzes frames from
+
